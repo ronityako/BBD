@@ -1,0 +1,19 @@
+<table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Product Name</th>
+        <th scope="col">Product Description</th>
+        <th scope="col">Unit Price</th>
+        <th scope="col">Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let prod of cartProducts">
+        <td>{{prod.name}}</td>
+        <td>{{prod.description}}</td>
+        <td>{{prod.unitPrice}}</td>
+        <td>{{prod.quantity}}</td>
+      </tr>
+    </tbody>
+  </table>
+  

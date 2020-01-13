@@ -1,0 +1,10 @@
+<div id="cartPage">
+    <h1 id="header">Your Cart</h1>
+    <app-cart-grid (totalChanged)="total=$event"></app-cart-grid>
+    <div id="total">
+        <span>Total:</span>
+        <span>{{total}}</span>
+    </div>
+    <button (click)="showPopup=true">Add Product</button>
+    <app-user-add-prod *ngIf="showPopup" (productAdded)="addToTable($event)"></app-user-add-prod>
+</div>

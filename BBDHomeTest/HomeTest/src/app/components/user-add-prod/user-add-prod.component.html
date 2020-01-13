@@ -1,0 +1,16 @@
+<div id="userProd">
+    <label>Product Name:
+        <input type="text" [(ngModel)]="userCartProd.name">
+    </label>
+    <label>Product Description:
+        <input type="text" [(ngModel)]="userCartProd.description">
+    </label>
+    <label>Product Price:
+        <input type="text" [(ngModel)]="userCartProd.price">
+    </label>
+    <label>Product Quantity:
+        <input type="text" [(ngModel)]="userCartProd.quantity">
+    </label>
+    <button (click)="addToCart()">Add To Cart</button>
+                
+</div>

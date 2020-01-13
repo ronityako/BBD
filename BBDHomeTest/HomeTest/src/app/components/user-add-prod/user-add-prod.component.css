@@ -1,0 +1,11 @@
+#userProd{
+    height: 250px;
+    width: 400px;
+    background-color: #e9ecef;
+    border: 1px black solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    padding: 20px;
+}
